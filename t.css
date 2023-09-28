@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://mcdn.wallpapersafari.com/medium/20/91/BnHx7J.jpg");
+}
+
+.container{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    color: gray;
+}
+
+.container h1 span{
+    transition: 1s;
+}
+.container h1 span:hover{
+    color: white;
+}
+
+textarea{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 250px;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: gray;
+    resize: none;
+
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background: black;
+    color: gray;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+select{
+    flex: 1;
+    color: gray;
+    background: black;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
